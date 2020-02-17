@@ -1,7 +1,7 @@
 
 module.exports = {
   apps : [{
-    name: 'server',
+    name: 'server1',
     script: 'loadtest.js',
 
     // Options reference: https://pm2.keymetrics.io/docs/usage/application-declaration/
