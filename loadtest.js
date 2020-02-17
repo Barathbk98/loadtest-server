@@ -8,11 +8,11 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.get("/",(req,res)=>{
+app.get("api/",(req,res)=>{
 	res.send("got");
 })
 
-app.post("/test",(req,res)=>{
+app.post("api/test",(req,res)=>{
 	const { url,method,rps,concurrency,body,requests,header } = req.body.details;
 	console.log(req.body.details)
 	const options = {
