@@ -25,7 +25,7 @@ module.exports = {
       ref  : 'origin/master',
       username : 'Barathbk98',
       password : 'bk191998',
-      repo : 'git@github.com:Barathbk98/loadtest-server.git',
+      repo : 'https://github.com/Barathbk98/loadtest-server.git',
       path : '/var/www/loadtest-server',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
     }
