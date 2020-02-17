@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/api/",(req,res)=>{
-	res.send("got");
+	res.render("got");
 })
 
 app.post("/api/test",(req,res)=>{
